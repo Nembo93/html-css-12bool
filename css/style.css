@@ -1,0 +1,35 @@
+/* RESET */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* DEBUG */
+.debug-page{
+    max-width: 1000px;
+}
+.debug-bg-yellow{
+    background-color: yellow;
+}
+.debug-bg-green{
+    background-color: green;
+}
+
+/* COMMONS */
+[class*="col-"]{
+    background-color: aqua;
+    text-align: center;
+    border: 2px solid white;
+    min-height: 20px;
+}
+/* [class*="col--m"]{
+    background-color: green;
+} */
+
+/* CONTAINER */
+.container{
+    margin-bottom: 10px;
+}
+
+
